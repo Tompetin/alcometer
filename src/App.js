@@ -5,6 +5,7 @@ import Options from './alcometer';
 
 
 //koodi laskee annetut arvot oikein viidennellä klikkauksella ja sen jälkeen joka kerralla, ei hajuakaan mikä sen aiheuttaa
+//lisäksi nollan antaminen negatiivisen arvon tullessa toimii vain joka toinen klikkaus, ei hajua siitäkään
 function App() {
 
   const [weight, setWeight] = useState(0)
